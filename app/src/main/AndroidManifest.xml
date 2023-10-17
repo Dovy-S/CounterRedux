@@ -13,9 +13,11 @@
         android:theme="@style/Theme.CounterRedux"
         tools:targetApi="31">
         <activity
-            android:name=".MatchActivity"
+            android:name=".LifepointActivity"
             android:exported="false" />
-            <!--android:screenOrientation="landscape"-->
+        <activity
+            android:name=".MatchActivity"
+            android:exported="false" /> <!-- android:screenOrientation="landscape" -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
